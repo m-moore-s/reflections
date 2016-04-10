@@ -11,10 +11,18 @@ allows the user more control over what is included in the commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can use the command git diff --staged to check your staged commit vs. the last commit to confirm
+that you included only one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When you want to create a separate version of the software, i.e. an easy-mode or different language.
+Branches allow you to maintain distinct modified versions of the project.
+
 How do the diagrams help you visualize the branch structure?
+
+Git is not user-friendly on a visual basis, so diagrams help quite a bit to track multiple branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
