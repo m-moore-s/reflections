@@ -7,12 +7,13 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    If you are starting from a stable codebase that you don't want to muddle up.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A fork is a remote clone of a repo.  A clone is a local copy of a repo, either local or remote.
+	A branch is a modification from the "master" codebase.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
