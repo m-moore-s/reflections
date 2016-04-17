@@ -27,5 +27,11 @@ Git is not user-friendly on a visual basis, so diagrams help quite a bit to trac
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is a new commit that contains the sum of the additions
+and deletions from the two branches using the branch point as the reference.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging saves time and effort, but cannot resolve all issues.  Manual merging allows the
+coders to determine the optimal solution.
